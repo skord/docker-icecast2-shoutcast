@@ -18,5 +18,5 @@ USER icecast2
 VOLUME /logs
 EXPOSE 8000 8001
 
-CMD ["/usr/bin/icecast2", "-c", "/etc/icecast2/user-config.xml"]
+CMD ["/start.sh"]
 
