@@ -9,6 +9,7 @@ ENV IC2_SOURCE_PASSWORD hackme
 ENV IC2_RELAY_PASSWORD  hackme
 ENV IC2_ADMIN_USER      admin
 ENV IC2_ADMIN_PASSWORD  hackme
+ENV IC2_HOSTNAME        example.com
 
 COPY config.xml /etc/icecast2/config.xml
 COPY start.sh /start.sh

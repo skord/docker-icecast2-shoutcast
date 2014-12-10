@@ -1,0 +1,12 @@
+icecast:
+  build: .
+  environment:
+    IC2_SOURCE_PASSWORD: hackme
+    IC2_RELAY_PASSWORD: hackme
+    IC2_ADMIN_PASSWORD: hackme
+    IC2_ADMIN_USER: admin
+    IC2_HOSTNAME: example.com
+  ports:
+    - '8000:8000'
+    - '8001:8001'
+    

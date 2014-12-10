@@ -21,11 +21,11 @@
     <directory>
         <yp-url-timeout>15</yp-url-timeout>
         <yp-url>http://dir.xiph.org/cgi-bin/yp-cgi</yp-url>
-      </directory>
+    </directory>
 
     <shoutcast-mount>/live.nsv</shoutcast-mount>
 
-    <hostname>itrebal.com</hostname>
+    <hostname>IC2_HOSTNAME</hostname>
 
     <listen-socket>
         <port>8000</port>
